@@ -1,0 +1,16 @@
+virtualenv -p python3 venv3
+./manage.py migrate
+cd application-x/
+./manage.py migrate
+pip install django
+./manage.py migrate
+deactivate
+source venv3/bin/activate
+ls
+python3 manage.py runserver
+nano requirementy.txt
+pip3 install -r requirements.txt
+python3 manage.py runserver
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py createsuperuser

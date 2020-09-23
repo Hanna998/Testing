@@ -1,0 +1,24 @@
+Ubuntu wiseness
+cat /proc/sys/vm/swappiness 
+60
+vim /
+vim /etc/sysctl.conf
+vi /etc/sysctl.conf
+
+hanna@hanna-LIFEBOOK-S782:~$ sudo !!
+
+hanna@hanna-LIFEBOOK-S782:~$ sudo sysctl  -p 
+vm.swappiness = 5
+hanna@hanna-LIFEBOOK-S782:~$ cat /proc/sys/vm/swappiness 
+5
+hanna@hanna-LIFEBOOK-S782:~$ free -m 
+              total        used        free      shared  buff/cache   available
+Mem:           7820        2978        2409         584        2432        3962
+Swap:          2047           0        2047
+
+
+
+Kéne gyártani virtual appliance-t virtuális gépekhez. ~ Marcell
+	Also:
+Te még nem zuhanyoztál gumiban? ~Marcell
+
